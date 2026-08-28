@@ -1,4 +1,4 @@
-import { supabaseAdmin, ChatMessage, ChatThread } from "@/lib/supabaseAdmin";
+import { supabaseAdmin, ChatMessage, ChatThread } from "../../../lib/supabaseAdmin";
 import { revalidatePath } from "next/cache";
 
 export const dynamic = "force-dynamic";

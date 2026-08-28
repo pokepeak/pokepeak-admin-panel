@@ -1,4 +1,4 @@
-import { supabaseAdmin, ChatThread } from "@/lib/supabaseAdmin";
+import { supabaseAdmin, ChatThread } from "../lib/supabaseAdmin";
 
 export const dynamic = "force-dynamic"; // immer aktuelle Daten, kein Caching
 
